@@ -1,11 +1,5 @@
 /// <reference types="vite/client" />
 
-declare module '*.svg' {
-  import type { DefineComponent } from 'vue'
-  const SvgComponent: DefineComponent<{}, {}, any>
-  export default SvgComponent
-}
-
 declare module '*.vue' {
   import type { DefineComponent } from 'vue'
   const VueComponent: DefineComponent<{}, {}, any>
@@ -19,7 +13,8 @@ declare module 'vue3-content-loader' {
 }
 
 interface ImportMetaEnv {
-  readonly VITE_API_URL: string
+  readonly VITE_FIREBASE_KEY: string
+  readonly VITE_FIREBASE_URL: string
 }
 
 interface ImportMeta {

@@ -167,7 +167,7 @@ import { searchCitiesByName } from "../../services/weatherService";
 .search-img {
   width: 24px;
   height: 24px;
-
+  fill: #fff;
 }
 
 @keyframes fadeIn {

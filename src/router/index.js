@@ -1,5 +1,5 @@
-import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
-const routes: Array<RouteRecordRaw> = [
+import { createRouter, createWebHistory } from 'vue-router';
+const routes = [
     { path: "/", name: "Home", component: () => import('../views/Home.vue') },
     { path: "/weather", name: "Weather", component: () => import('../views/Weather.vue') },
     { path: "/about", name: "About", component: () => import('../views/About.vue') },

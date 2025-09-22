@@ -28,7 +28,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { ContentLoader } from 'vue-content-loader'
-import TempIcon from '../../assets/temp.svg'
+import TempIcon  from '../../assets/temp.svg'
 import PressureIcon from '../../assets/pressure.svg'
 import RainIcon from '../../assets/rain.svg'
 import WindIcon from '../../assets/wind.svg'
